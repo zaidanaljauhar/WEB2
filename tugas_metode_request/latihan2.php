@@ -1,9 +1,9 @@
 <?php
-$nama = $_GET['nama'];
-$NIM = $_GET['NIM'];
-$jurusan = $_GET['jurusan'];    
-$email = $_GET['email'];
-$img = $_GET['img'];
+$nama = $_GET["nama"];
+$NIM = $_GET["NIM"];
+$jurusan = $_GET["jurusan"];    
+$email = $_GET["email"];
+$img = $_GET["img"];
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -15,11 +15,11 @@ $img = $_GET['img'];
 
 <body>
     <ul>
-        <li><img src="img/<?= $_GET['img']; ?>"></li>
-        <li><?= $_GET['nama']; ?></li>
-        <li><?= $_GET['NIM']; ?></li>
-        <li><?= $_GET['email']; ?></li>
-        <li><?= $_GET['jurusan']; ?></li>
+        <li><img src="img/<?= $_GET["img"]; ?>"></li>
+        <li><?= $_GET["nama"]; ?></li>
+        <li><?= $_GET["NIM"]; ?></li>
+        <li><?= $_GET["email"]; ?></li>
+        <li><?= $_GET["jurusan"]; ?></li>
     </ul>
 
     <a href="latihan1.php">kembali ke Halaman sebelumnya</a>
